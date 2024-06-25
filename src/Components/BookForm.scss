@@ -1,0 +1,47 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+
+    .Title{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color:navy;
+        color: white;
+    }
+
+    .Author{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color:navy;
+        color: white;
+    }
+
+    .Publication-Year{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color:navy;
+        color: white;
+    }
+
+    button{
+        background-color:white;
+        color: navy;
+        padding: 0.1rem;
+        border-radius: 6px;
+        border: 1px solid black;
+        font-size: 1.2rem;
+        margin: 1rem;
+        cursor: pointer;
+    }
+}
